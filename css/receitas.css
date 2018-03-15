@@ -1,0 +1,150 @@
+body, 
+.menu,
+.sub-menu {
+    margin: 0;
+    padding: 0;
+}
+body,
+html{
+ margin:  0; 
+ padding: 0;
+ font-size:18px;
+}
+body{
+ background: url("../imagens/logotipo.gif") center top no-repeat;
+ background-size:100%;
+ background-attachment:fixed;
+}
+p{text-align:justify;}
+a{
+text-decoration: none;
+color: blue;
+}
+.aside img {
+margin: 0px 0px 0px 50px;
+width:390px;
+ height:auto;
+}
+
+.principal{
+ width: 1024px;
+ color: #444;
+ margin: 0 auto;
+ font-family:sans-serif;
+}
+.cabecalho, 
+.logo, 
+.rodape,
+.menu{
+ width:100%;
+ display:block;
+ clear:both;
+}
+.cabecalho{
+ height:100px;
+}
+.logo-cabecalho{
+ float:left;
+}
+.logo-cabecalho a{
+ font-size:50px;
+ font-style:italic;
+ text-decoration:none;
+ color:#000;
+ display:block;
+ padding:20px 0 0 0;
+}
+.menu{
+ background:#125103;
+}
+.menu ul li, 
+.menu ul{
+ margin:0;
+ padding:0;
+ list-style:none;
+}
+.menu ul li{
+ display:inline-block;
+}
+.menu ul li a{
+ display:block;
+ color:#fff;
+ padding:13px 20px;
+}
+.corpo{
+ position:relative;
+ overflow:hidden;
+ width:100%;
+}
+.artigos{
+ float:left;
+}
+.artigos, .artigos:before{
+ width:100%;
+}
+.artigos:before{
+ position:absolute;
+ top:0;
+ left:0;
+ bottom:0;
+ background:#fff;
+ z-index:-1;
+ content:'';
+}
+
+.espacamento{
+ padding:20px;
+}
+.rodape{
+ padding:20px;
+ text-align:center;
+ color: black;
+}
+
+.clearfix:after{
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+.menu,
+.sub-menu {
+    list-style: none;
+    background: #000;
+	clear: both;
+}
+.sub-menu {
+    background: #444;
+	
+}
+.menu a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.menu li {
+    position: relative;
+}
+.menu > li {
+    float: left;
+}
+.menu > li:hover {
+    background: #444;
+}
+.menu li:hover > .sub-menu {
+    display: block;
+}
+.linha {
+	    border-bottom: 5px solid #ccc;
+        margin: 0 0 20px 0;
+        padding: 5px;
+}
